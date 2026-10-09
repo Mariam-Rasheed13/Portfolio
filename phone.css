@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* Phone: 480px and below*/
+
+body {
+    font-size: 15px;
+}
+
+header {
+    padding: 18px 12px;
+}
+
+.header_content {
+    text-align: center;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+header nav {
+    display: block;
+    width: 100%;
+}
+
+header nav a {
+    width: 44%;
+    margin: 5px 2%;
+    padding: 11px 5px;
+    text-align: center;
+}
+
+.home_main {
+    padding: 45px 12px;
+}
+
+.welcome_section {
+    padding: 12px;
+    border-radius: 18px;
+}
+
+.welcome_card {
+    padding: 35px 18px;
+}
+
+.welcome_card h1 {
+    font-size: 30px;
+}
+
+.welcome_card p {
+    font-size: 16px;
+}
+
+.about_main,
+.projects,
+.contact {
+    padding: 35px 12px;
+}
+
+.about_photo,
+.about_text {
+    float: none;
+    width: 100%;
+    margin: 0 0 25px 0;
+}
+
+.about_photo img {
+    max-width: 330px;
+}
+
+.video_section {
+    padding: 10px 0;
+}
+
+.video_section video {
+    width: 100%;
+}
+
+.project_card,
+.project_5 {
+    float: none;
+    clear: both;
+    width: auto;
+    height: auto;
+    margin: 0 0 18px 0;
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+    padding: 20px 15px;
+}
+
+form input[type="reset"],
+form input[type="submit"] {
+    width: 42%;
+}

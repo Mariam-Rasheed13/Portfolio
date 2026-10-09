@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Tablet: 481px-959px */
+
+.header_content {
+    max-width: 900px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+header nav a {
+    padding: 9px 12px;
+    margin: 5px 6px;
+}
+
+.home_main {
+    padding: 65px 18px;
+}
+
+.welcome_card {
+    padding: 45px 25px;
+}
+
+.about_photo {
+    width: 42%;
+    margin-right: 4%;
+}
+
+.about_text {
+    width: 54%;
+}
+
+.video_section video {
+    width: 85%;
+}
+
+.project_card {
+    height: 450px;
+}
+
+.contact form {
+    max-width: 620px;
+}

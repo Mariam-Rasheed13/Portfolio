@@ -47,7 +47,7 @@ header nav {
 
 header nav a {
     display: inline-block;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-decoration: none;
     background-color: #2B6EA6;
     border: 2px solid #7CB7E8;
@@ -111,7 +111,7 @@ header nav a:hover {
     margin: 0 auto 40px auto;
 }
 
-.about_photo{
+.about_photo {
     float: left;
     width: 40%;
     margin: 0 5% 20px 0;
@@ -133,7 +133,7 @@ header nav a:hover {
     padding: 20px 10px;
 }
 
-.about_text h2, 
+.about_text h2,
 .video_section h2 {
     color: #123C69;
 }
@@ -143,7 +143,7 @@ header nav a:hover {
 }
 
 .video_section {
-    min-width: 1050px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 30px 0;
 }
@@ -154,18 +154,18 @@ header nav a:hover {
     max-width: 700px;
     margin: 20px 0;
     padding: 8px;
-    background-color: #123069;
+    background-color: #123C69;
     border: 3px solid #7CB7E8;
     border-radius: 12px;
 }
 
 /* Projects Page */
 
-.project {
+.projects {
     font-family: Verdana, Geneva, Arial, sans-serif
 }
 
-.project h1 {
+.projects h1 {
     margin: 0 0 35px 0;
     text-align: center;
 }
@@ -288,7 +288,7 @@ footer {
 
 .footer_avatar {
     width: 75px;
-    height:75px;
+    height: 75px;
     border-radius: 50%;
     border: 3px solid #D8EEFF;
     display: block;
