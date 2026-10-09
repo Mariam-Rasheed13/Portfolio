@@ -294,3 +294,7 @@ footer {
     display: block;
     margin: 0 auto 12px auto;
 }
+
+footer a {
+    color: #FFFFFF;
+}
