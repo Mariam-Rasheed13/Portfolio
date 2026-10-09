@@ -100,7 +100,8 @@ header nav a:hover {
 /* About Me Page */
 
 .about_main,
-.projects {
+.projects,
+.contact {
     padding: 45px 20px;
     background-color: #D8EEFF;
 }
@@ -204,6 +205,75 @@ header nav a:hover {
     width: 47%;
     clear: both;
     margin: 0 auto 25px auto;
+}
+
+/* Contact Form*/
+
+.contact {
+    min-height: 650px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: #D8EEFF;
+    border: 2px solid #7CB7E8;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 20px #7CB7E8;
+}
+
+form p {
+    margin: 0 0 18px 0;
+}
+
+form label {
+    display: block;
+    color: #123C69;
+    margin-bottom: 7px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #7CB7E8;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+form input[type="checkbox"]+label {
+    display: inline;
+}
+
+form div {
+    text-align: center;
+    margin-top: 25px;
+}
+
+form input[type="reset"],
+form input[type="submit"] {
+    background-color: #123C69;
+    color: #FFFFFF;
+    border: 2px solid #123C69;
+    border-radius: 7px;
+    padding: 11px 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+form input[type="reset"]:hover,
+form input[type="submit"]:hover {
+    background-color: #2B6EA6;
 }
 
 /* Footer */

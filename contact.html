@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariam Rasheed | Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="header_content">
+                <img class="avatar" src="mariam.jpg" alt="Mariam Rsheed">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact Me</a>
+                </nav>
+            </div>
+        </header>
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <form action="mailto:mariam.rasheed1@ontariotechu.net?subject=Contact_Form" method="post" enctype="text/plain">
+                <p>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
+                </p>
+                <p>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </p>
+                <p>
+                    <label for="phone">Cell Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your cell phone number"
+                    pattern="[0-9]{10}" title="Enter exactly 10 numbers" required>
+                </p>
+                <p>
+                    <label>Do you like this website?</label>
+                    <label><input type="radio" name="website_like" value="yes">Yes</label>
+                    <label><input type="radio" name="website_like" value="no">No</label>
+                </p>
+                <p>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="6" placeholder="Enter your feedback about the website"></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" id="not_robot" name="not_robot" required>
+                    <label for="not_robot">I am not a robot</label>
+                </p>
+                <div>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+        <footer>
+            <img class="footer_avatar" src="mariam.jpg" alt="">
+            <address>
+                <p>
+                    &copy; 2026 by Mariam Rasheed |
+                    <a href="mailto:mariam.rasheed1@ontariotechu.net">mariam.rasheed1@ontariotechu.net</a>
+                </p>
+            </address>
+        </footer>
+    </div>
+</body>
+</html>
