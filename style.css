@@ -99,7 +99,8 @@ header nav a:hover {
 
 /* About Me Page */
 
-.about_main {
+.about_main,
+.projects {
     padding: 45px 20px;
     background-color: #D8EEFF;
 }
@@ -155,6 +156,54 @@ header nav a:hover {
     background-color: #123069;
     border: 3px solid #7CB7E8;
     border-radius: 12px;
+}
+
+/* Projects Page */
+
+.project {
+    font-family: Verdana, Geneva, Arial, sans-serif
+}
+
+.project h1 {
+    margin: 0 0 35px 0;
+    text-align: center;
+}
+
+.project_grid {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.project_card {
+    float: left;
+    width: 47%;
+    min-height: 220px;
+    background-color: #D8EEFF;
+    border: 3px solid #7CB7E8;
+    border-radius: 16px;
+    padding: 25px;
+    margin: 0 1% 25px 1%;
+}
+
+.project_card:hover {
+    background-color: #7CB7E8;
+}
+
+.project_card h2 {
+    color: #123C69;
+    margin-top: 0;
+    font-size: 21px;
+}
+
+.project_card p {
+    margin-bottom: 0;
+}
+
+.project_5 {
+    float: none;
+    width: 47%;
+    clear: both;
+    margin: 0 auto 25px auto;
 }
 
 /* Footer */
