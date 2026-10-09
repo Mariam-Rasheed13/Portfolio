@@ -106,6 +106,10 @@ header nav a:hover {
     background-color: #D8EEFF;
 }
 
+.about_intro h1 {
+    text-align: center;
+}
+
 .about_intro {
     max-width: 1050px;
     margin: 0 auto 40px auto;
@@ -249,6 +253,18 @@ form textarea {
     font-family: inherit;
     font-size: 16px;
     background-color: #FFFFFF;
+}
+
+form fieldset {
+    border: none;
+    margin: 10px 0;
+}
+form fieldset legend {
+    margin-bottom: 8px;
+}
+
+form fieldset label {
+    margin-right: 15px;
 }
 
 form input[type="checkbox"]+label {
